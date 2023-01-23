@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+            <div class="searchBar">
+               <div class="row">
+                <div class="form-center">
+                  <form id="city-search">
+                    <input 
+                      type="search"
+                      id="city-input"
+                      placeholder="Enter city name."
+                    >
+
+                    <input 
+                      type="submit"
+                      id="submit-bar"
+                      value="Search"
+                    >
+
+                  </form>
+                  </div>
+                </div>
+              </div>
+
+            <div class="app-wrap">
+                <main>
+                <section class="location">
+                  <h1>Madrid, Spain</h1>
+                  <h2></h2>
+                </section>
+                    <div class="current">
+                        <div class="temp">23<span class="choose-units">°C</span></div>
+                        <div class="weather"> ☀️ Sunny</div>
+                        <div class="hi-low">13°<span class="units-change">C</span> / 24°<span class="units-change">C</span></div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col">
+                          <button type="button" class="btn btn-outline-dark">Thursday</button>  
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-dark">Friday</button>  
+                          </div>
+                          <div class="col">
+                            <button type="button" class="btn btn-outline-dark">Saturday</button>  
+                          </div>
+                          <div class="col">
+                            <button type="button" class="btn btn-outline-dark">Sunday</button>  
+                          </div>
+                          <div class="col">
+                            <button type="button" class="btn btn-outline-dark">Monday</button>  
+                          </div>     
+                        </div>
+
+                </main>
+                </div>  
+
+    </div>
+
+</body>
+<script src="src/index.js"></script>
+</html>
